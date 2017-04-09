@@ -1,7 +1,15 @@
 开发一个Android App需要什么
 ===================
 
-[TOC]
+* [开发一个Android App需要什么](#开发一个android-app需要什么)
+     * [简介](#简介)
+     * [标准](#标准)
+     * [说明](#说明)
+     * [交流](#交流)
+     * [UI控件类开源库](#ui控件类开源库)
+     * [工具类开源库](#工具类开源库)
+     * [平台服务](#平台服务)
+     * [开发小技巧](#开发小技巧)
 
 ### 简介
 本库总结了一个能够进行快速开发一个Android App所需的开源库、开发技巧、开发工具等。主要是为了做索引，方便开发新应用的时候快速进入状态。
@@ -19,12 +27,11 @@
 ### 交流
 欢迎大家将珍藏已久的好网站、好工具、好方法共享出来，您可以：
 
-* 提交 [Issues](https://github.com/liangpengfei/WebsitesForStudents/issues/new)
-* 发起 [Pull Request](https://github.com/Xuanwo/WebsitesForStudents/compare)
+* 提交 [Issues](https://github.com/liangpengfei/WhatNeedToDevAndroidApp/issues/new)
+* 发起 [Pull Request](https://github.com/liangpengfei/WhatNeedToDevAndroidApp/compare)
 
-贡献者名单: https://github.com/Xuanwo/WebsitesForStudents/graphs/contributors
+贡献者名单: https://github.com/liangpengfei/WhatNeedToDevAndroidApp/graphs/contributors
 
-<div id="1.1"></div>
 ### UI控件类开源库
 
 * [XRecyclerView](https://github.com/jianghejie/XRecyclerView) 
@@ -67,8 +74,6 @@
 	* 直接看[Sample.apk](https://github.com/afollestad/material-dialogs/blob/master/sample/sample.apk)，方便定位代码。
 	* Dialog的使用方式比较全，多种风格，基本上能满足需求，一直都在用。
 
-
-
 ### 工具类开源库
 * [PermissionGen](https://github.com/lovedise/PermissionGen)
 	* 方便处理Android M之后的动态权限的问题，使用很方便。
@@ -88,7 +93,6 @@
 * [班邦加固](https://www.bangcle.com)
 	* 一直再用这个，也没有用过其他的，因为平时都是小型的项目，加密防护的需求不是很大。
 
-<div id="3.3"></div>
 * [IconFont](http://iconfont.cn)
 	* 图标比较全，也开放下载，自己写小项目的时候在上面找图标。
 
@@ -97,7 +101,7 @@
 
 ### 开发小技巧
 * 使用最新Android Studio的Vector Asset
-	* 支持从SVG图标（图标可以从[IconFont](#3.3)下载）转换成xml的**VectorDrawable**格式的文件
+	* 支持从SVG图标（图标可以从[IconFont](http://iconfont.cn)下载）转换成xml的**VectorDrawable**格式的文件
 
 * 尽可能的使用Android的模板，可以减少很多工作量
 	* 例如使用BasicActivity、LoginActivity等，用习惯了很好用。
